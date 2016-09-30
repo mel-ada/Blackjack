@@ -124,6 +124,20 @@ class Hand:
             cards += str(card) + " "
         return cards.strip()
 
+class Player:
+    """The player of the blackjack game.
+
+    * Holds a hand
+    * Can hit
+    *Can stay
+    *Uses a hand of cards
+    """
+    def __init__(self, name):
+        self.player = Hand()
+        self.name = name
+
+    def hit():
+
 
 class Deck:
     '''Deck consists of a list of cards.
